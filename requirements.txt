@@ -1,0 +1,87 @@
+﻿Principal / Lead  QA Automation Assessment 
+Objective
+This assessment evaluates the candidate’s basic automation capability, ability to write clean and structured tests, and understanding of automation fundamentals. It is intentionally simple and lightweight.
+
+PART 1 — Short Written Questions 
+
+Answer briefly (3–5 lines each):
+1. What are the advantages of automating tests using a Page Object Model (POM)?
+2. When would you avoid automating a test case?
+3. What typically causes flaky tests, and how would you reduce flakiness?
+4. What is the difference between UI tests and API tests, and when is each more suitable?
+
+PART 2 — Web Automation (Playwright TypeScript)
+Website: https://www.automationexercise.com
+
+Task
+Automate the following simple flow:
+
+User Login Flow:
+- Navigate to the website.
+- Click "Signup / Login."
+- Enter valid login credentials.
+- Assert successful login by confirming the username appears.
+
+Requirements:
+- Basic Page Object Model.
+- At least one assertion.
+- Fixtures (default Playwright fixtures acceptable).
+- Screenshot on failure.
+- README explaining installation and execution.
+
+Deliverables:
+/tests/login.spec.ts
+/pages/LoginPage.ts
+/playwright.config.ts
+/README.md
+
+PART 3 — API Automation (Playwright API Testing)
+API Documentation: https://www.automationexercise.com/api_list
+Task:
+Automate a login API test with:
+- Valid credentials
+- Assertions on status code and response message
+
+Optional: Negative test with invalid credentials.
+
+Deliverables:
+/api/login-api.spec.ts
+
+PART 4 — Mobile Automation
+Use any sample Android app. 
+
+Task:
+- Launch app
+- Tap an element
+- Assert page transition
+
+Requirements:
+- Appium + Mocha
+- One Page Object
+- One test file
+
+Deliverables:
+mobile/pages/
+mobile/tests/
+
+PART 5 — Submission Requirements
+
+A. GitHub repository containing:
+- Web test
+- API test
+- mobile test
+- README
+
+B. PDF or DOCX containing:
+- Answers to Part 1
+- Folder structure explanation
+- Notes or assumptions
+
+Evaluation Criteria:
+- Code clarity
+- POM understanding
+- Valid API assertions
+- Mobile automation basics (optional)
+- Ability to follow instructions
+- Project structure
+
